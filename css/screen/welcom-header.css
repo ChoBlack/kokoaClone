@@ -1,0 +1,12 @@
+.welcome-header {
+  text-align: center;
+  margin: 60px;
+}
+.welcome-header__title {
+  font-size: 20px;
+}
+.welcome-header__explain {
+  opacity: 0.3;
+  font-size: 14px;
+  margin: 20px 0 40px 0;
+}

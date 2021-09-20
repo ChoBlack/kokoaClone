@@ -1,0 +1,40 @@
+.nav-bar {
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 0px;
+  padding: 18px 30px;
+  border-top: 1px solid gainsboro;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav-bar__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar__btn {
+  color: black;
+  position: relative;
+}
+.nav-bar__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+  color: whitesmoke;
+  position: absolute;
+  right: -12px;
+  bottom: 12px;
+}
+.nav-bar__dot {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 30px;
+  background-color: red;
+}

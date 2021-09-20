@@ -1,0 +1,65 @@
+/**common**/
+.user-component {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 5px 0 15px 0;
+  margin: 5px 20px;
+}
+.user-component__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.user-component__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.user-component__subtitle {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/**xl**/
+.user-component__profile--xl {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+/**sm(chat page)**/
+.user-component__profile--sm {
+  width: 52px;
+  height: 52px;
+  border-radius: 21px;
+}
+.user-component__number {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 220px;
+  margin-bottom: 36px;
+}
+
+/**xsm**/
+.user-component__profile--xsm {
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+}
+.user-component__subtitle {
+  margin: 3px 0 0 0;
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component__music {
+  padding: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: white;
+  font-weight: 540;
+  margin-left: 40px;
+}

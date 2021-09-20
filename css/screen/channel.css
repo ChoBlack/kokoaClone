@@ -1,0 +1,8 @@
+.channel,
+.friend-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 21px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
